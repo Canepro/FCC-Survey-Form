@@ -19,9 +19,53 @@
         <div class="form-group">
             <label id="number-label" for="number">Age<span class="clue"> (optional)</span></label>
             <input type="number" name="age" id="number" min="10" max="99" class="form-control" placeholder="Age" />
-        
         </div>
 
+		  <div class="form-group">
+			<p>Gender</p>
+			<label>
+			  <input name="gender" value="male" type="radio" class="input-radio" checked />Male</label><br>
+			<label>
+			  <input name="gender" value="female" type="radio" class="input-radio" />Female</label><br>
+	
+			<label><input name="gender" value="other" type="radio" class="input-radio" />Other</label>
+		 </div>
+
+		  <div class="form-group">
+			  <p>Which option best describes your current job role?</p>
+			  <select id="dropdown" name="role" class="form-control" required>
+				  <option disabled selected value>Select your option below</option>
+				  <option value="student">Student</option>
+				  <option value="job">Full Time Job</option>
+				  <option value="learner">Full Time Learner</option>
+				  <option value="preferNo">Prefer not to say</option>
+				  <option value="other">Other</option>
+			  </select>
+		   </div>
+
+			<div class="form-group">
+				<p>How much time do you spend using Mobile Phone?</p>
+				<select id="dropdown" name="role" class="form-control" required>
+					<option disabled selected value>Select your option below</option>
+					<option value="Less than a minute">Less than a minute</option>
+					<option value="About 1 - 2 minutes">About 1 - 2 minutes</option>
+					<option value="Between 2 and 5 minutes">Between 2 and 5 minutes</option>
+					<option value="More than 5 minutes">More than 5 minutes</option>
+					<option value="preferNo">Prefer not to say</option>
+				</select>
+			 </div>
+
+			 <div class="form-group">
+				<p>How much time do you spend playing video games?</p>
+				<select id="dropdown" name="role" class="form-control" required>
+					<option disabled selected value>Select your option below</option>
+					<option value="Less than an hour">Less than an hour</option>
+					<option value="About 1 - 2 hours">About 1 - 2 hours</option>
+					<option value="Between 2 and 5 hours">Between 2 and 5 hours</option>
+					<option value="More than 5 hours">More than 5 hours</option>
+					<option value="preferNo">Prefer not to say</option>
+				</select>
+			 </div>
     </form>
 
 </div>
